@@ -16,6 +16,7 @@ public class StoreContactActivity extends Activity {
                 newString = null;
             } else {
                 newString = extras.getString("(555)555-1234");
+                //this is a comment
             }
         } else {
             newString = (String) savedInstanceState.getSerializable("(555)555-1234");
