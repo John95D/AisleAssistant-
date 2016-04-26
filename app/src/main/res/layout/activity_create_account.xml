@@ -13,12 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/editText3"
         android:layout_alignTop="@+id/textView11"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:imeOptions="actionNext"
+        android:textColor="#424242" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -28,38 +29,49 @@
         android:id="@+id/editText4"
         android:layout_below="@+id/editText3"
         android:layout_alignLeft="@+id/editText3"
-        android:layout_alignStart="@+id/editText3" />
+        android:layout_alignStart="@+id/editText3"
+        android:imeOptions="actionNext"
+        android:textColor="#424242" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText5"
+        android:singleLine="true"
         android:layout_below="@+id/editText4"
         android:layout_alignLeft="@+id/editText4"
         android:layout_alignStart="@+id/editText4"
         android:layout_alignRight="@+id/editText4"
         android:layout_alignEnd="@+id/editText4"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionNext"
+        android:textColor="#424242" />
 
     <EditText
         android:layout_width="80dp"
         android:layout_height="wrap_content"
+        android:singleLine="true"
         android:id="@+id/editText6"
         android:layout_below="@+id/editText5"
         android:layout_alignLeft="@+id/editText5"
         android:layout_alignStart="@+id/editText5"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionNext"
+        android:textColor="#424242" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:singleLine="true"
         android:id="@+id/editText7"
         android:layout_below="@+id/editText6"
         android:layout_alignLeft="@+id/editText6"
         android:layout_alignStart="@+id/editText6"
         android:layout_alignRight="@+id/editText5"
         android:layout_alignEnd="@+id/editText5"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionNext"
+        android:textColor="#424242" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -70,13 +82,15 @@
         android:layout_below="@+id/editText7"
         android:layout_alignLeft="@+id/editText7"
         android:layout_alignStart="@+id/editText7"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionDone"
+        android:textColor="#424242" />
 
     <Button
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:text="Submit"
-        android:id="@+id/createAccountButton"
+        android:id="@+id/submitButton"
         android:background="#3eabde"
         android:textColor="#ffffff"
         android:textSize="16dp"
@@ -136,8 +150,8 @@
         android:text="Password"
         android:id="@+id/textView15"
         android:layout_alignBottom="@+id/editText8"
-        android:layout_toLeftOf="@+id/createAccountButton"
-        android:layout_toStartOf="@+id/createAccountButton"
+        android:layout_toLeftOf="@+id/submitButton"
+        android:layout_toStartOf="@+id/submitButton"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp" />
 
@@ -161,6 +175,7 @@
         android:textSize="24dp"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/textView12"
-        android:layout_toEndOf="@+id/textView12" />
+        android:layout_toEndOf="@+id/textView12"
+        android:textColor="#000000" />
 
 </RelativeLayout>

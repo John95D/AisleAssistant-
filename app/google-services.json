@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "aisle-app",
+    "project_number": "954988507699",
+    "name": "Aisle App"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954988507699:android:544f15a7d979f5f7",
+        "client_id": "android:com.haley.classapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.haley.classapp",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954988507699-6mn6s15k7f38ia1rot1gk96vf0m25bte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haley.classapp",
+            "certificate_hash": "E0C51E8694233AFB7F21368EF4C5BAA43AB23E2F"
+          }
+        },
+        {
+          "client_id": "954988507699-i8hoplqtv1mjkt06ctk09arsvgh6eho9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
