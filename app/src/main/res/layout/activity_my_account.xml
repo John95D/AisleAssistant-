@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Account"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:src="@drawable/android_app"
+        android:contentDescription="@string/avatar"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:text="jane101"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Jane Doe"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Blacksburg, VA"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="My Store"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Grocery Lists"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Settings"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="0dp" />
+
+    </LinearLayout>
+</LinearLayout>

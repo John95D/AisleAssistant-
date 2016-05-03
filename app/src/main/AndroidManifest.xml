@@ -54,6 +54,10 @@
             android:label="Aisle Assistant" >
         </activity>
         <activity
+            android:name=".MyAccountActivity"
+            android:label="Aisle Assistant" >
+        </activity>
+        <activity
             android:name=".MyStoreActivity"
             android:label="Aisle Assistant" >
         </activity>

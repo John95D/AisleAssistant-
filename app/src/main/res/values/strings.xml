@@ -17,4 +17,5 @@
     <string name="title_activity_maps">Map</string>
     <string name="submit_request">Submit</string>
     <string name="title_activity_google_map">Map</string>
+    <string name="avatar">Avatar</string>
 </resources>

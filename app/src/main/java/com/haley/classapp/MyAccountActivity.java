@@ -6,20 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CreateAccountActivity extends Activity {
-
+/**
+ * Created by Haley on 5/2/16.
+ */
+public class MyAccountActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_account);
+        setContentView(R.layout.activity_my_account);
 
-        Button btnNewAccount = (Button) findViewById(R.id.submitButton);
-        assert btnNewAccount != null;
-        btnNewAccount.setOnClickListener(new View.OnClickListener() {
+        Button btnStore = (Button) findViewById(R.id.button1);
+        assert btnStore != null;
+        btnStore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), MyAccountActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MyStoreActivity.class);
                 startActivity(intent);
             }
         });
