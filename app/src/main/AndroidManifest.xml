@@ -54,6 +54,10 @@
             android:label="Aisle Assistant" >
         </activity>
         <activity
+            android:name=".MyAccountActivity"
+            android:label="Aisle Assistant" >
+        </activity>
+        <activity
             android:name=".MyStoreActivity"
             android:label="Aisle Assistant" >
         </activity>
@@ -69,7 +73,7 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyD2XphFCIuMDfonBsjGXiDBC8fS5hwkisE" />
+            android:value="@string/google_maps_key" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
